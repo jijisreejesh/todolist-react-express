@@ -1,0 +1,23 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: #8EC5FC;
+}
+
+h1{
+    padding-bottom: 30px;
+    text-align: center;
+    animation: todoh1 2s ease-in-out infinite;
+}
+@keyframes todoh1 {
+    from{
+        color: blue;
+    }
+    to{
+        color: rgb(217, 47, 17);
+    }
+    
+}
